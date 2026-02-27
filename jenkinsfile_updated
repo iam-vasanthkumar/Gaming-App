@@ -10,7 +10,7 @@ pipeline {
     }
     
     stages {
-        stage('SCM CHECKOUT') {
+        stage('SCM  CHECKOUT') {
             steps {
                git branch: 'main', url: 'https://github.com/iam-vasanthkumar/Gaming-App.git'
             }
